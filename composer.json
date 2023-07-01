@@ -1,0 +1,14 @@
+{
+    "require": {
+        "drlecks/simple-web3-php": "^0.10.0",
+		"ext-bcmath": "*",
+		"ext-curl": "*",
+		"ext-fileinfo": "*",
+        "ext-gmp": "*",
+		"ext-intl": "*",        
+        "ext-xml": "*",        
+        "ext-zip": "*",
+		"monolog/monolog": "^3.4",
+        "smarty/smarty": "^4.3"
+    }
+}
