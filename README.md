@@ -9,6 +9,9 @@ You must have previously installed the following tools:
 - [Apache Web Server](https://httpd.apache.org/) 
 - [PHP](https://www.php.net/)
 
+DO NOT USE THE TEST ACCOUNTS ON ETHEREUM MAINNET OR ANY PRODUCTION NETWORK.
+The genesis.json file's accounts are test accounts and their private keys are publicly visible in Besu documentation and in publicly available source code.
+
 After starting the Besu network, verify that the main node is responding to localhost port 8545, otherwise change index.php to the correct port.
 Launch the application through a web browser.
 
