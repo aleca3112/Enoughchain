@@ -5,7 +5,7 @@
 			<div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
 				<div class="d-flex align-items-center justify-content-between mb-3">
 					<a href="index.php" class="">
-						<h1 class="text-primary"><i class="fa fa-layer-group me-2"></i>Enoughchain</h3>
+						<h1 class="text-primary"><i class="fa fa-layer-group me-2"></i>Enoughchain</h1>
 					</a>
 				</div>
 				<form action="" method="post">

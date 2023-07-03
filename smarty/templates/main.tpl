@@ -3,7 +3,7 @@
 	<!-- Navbar Start -->
 	<nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
 		<a href="index.php" class="">
-			<h1 class="text-primary"><i class="fa fa-layer-group me-2"></i>Enoughchain</h3>
+			<h1 class="text-primary"><i class="fa fa-layer-group me-2"></i>Enoughchain</h1>
 		</a>
 		<div class="navbar-nav align-items-center ms-auto">
 			<div class="nav-item dropdown">
@@ -25,6 +25,9 @@
 	<!-- Menu start -->
 	{if isset($page)}
 		<div class="container-fluid pt-4 px-4">
+			<div class="text-center mb-3">
+				<h2 class="text-primary "><i class="fa {$pageFa} me-2"></i>{$pageTitle}</h2>
+			</div>
 			<form action="" method="post" class="row g-1 mx-auto col-10 col-md-8 col-lg-6">
 				{include file="{$page}"}
 				<div class="input-group mb-3 gap-2">
@@ -52,7 +55,7 @@
 						<div class="card-body">
 							<h5 class="card-title">{$operation->title}</h5>
 							<p class="card-text">{$operation->description}</p>
-							<a href="?page={$operation->page}" class="btn btn-primary">{$operation->title}</a>
+							<a href="?page={$key}" class="btn btn-primary">{$operation->title}</a>
 					   </div>
 					</div>
 				  </div>

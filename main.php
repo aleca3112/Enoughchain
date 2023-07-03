@@ -32,8 +32,11 @@ if (isset($_GET['login'])) {
 	}
 	$smarty->assign('operations', $newOperation);
 	if (isset($_GET['page'])) {
+		$operation = $newOperation[$_GET['page']];
 		$smarty->assign('result', 'Result will be visible here!');
-		require_once($_GET['page'] . '.php');
-		$smarty->assign('page', $_GET['page'] . '.tpl');
+		require_once($operation->page . '.php');		
+		$smarty->assign('page', $operation->page . '.tpl');
+		$smarty->assign('pageFa', $operation->fa);
+		$smarty->assign('pageTitle', $operation->title);
 	}
 }
